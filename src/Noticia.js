@@ -8,7 +8,7 @@ const Noticia = () => {
     useEffect(() => {
         console.log("🔄 Iniciando o fetch...");
 
-        fetch("tecmundo.json")
+        fetch("https://bruno2galdino.github.io/noticias-json/tecmundo.json")
             .then(res => {
                 console.log("📥 Resposta recebida:", res);
                 if (!res.ok) {
