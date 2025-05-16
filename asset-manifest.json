@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3524fff4.css",
-    "main.js": "/static/js/main.d042d360.js",
-    "static/js/453.8403ba00.chunk.js": "/static/js/453.8403ba00.chunk.js",
-    "static/media/logo.png": "/static/media/logo.8c113e374585ab42b965.png",
-    "index.html": "/index.html",
-    "main.3524fff4.css.map": "/static/css/main.3524fff4.css.map",
-    "main.d042d360.js.map": "/static/js/main.d042d360.js.map",
-    "453.8403ba00.chunk.js.map": "/static/js/453.8403ba00.chunk.js.map"
+    "main.css": "/tecmundo/static/css/main.3524fff4.css",
+    "main.js": "/tecmundo/static/js/main.26f550bb.js",
+    "static/js/453.8403ba00.chunk.js": "/tecmundo/static/js/453.8403ba00.chunk.js",
+    "static/media/logo.png": "/tecmundo/static/media/logo.8c113e374585ab42b965.png",
+    "index.html": "/tecmundo/index.html",
+    "main.3524fff4.css.map": "/tecmundo/static/css/main.3524fff4.css.map",
+    "main.26f550bb.js.map": "/tecmundo/static/js/main.26f550bb.js.map",
+    "453.8403ba00.chunk.js.map": "/tecmundo/static/js/453.8403ba00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3524fff4.css",
-    "static/js/main.d042d360.js"
+    "static/js/main.26f550bb.js"
   ]
 }
