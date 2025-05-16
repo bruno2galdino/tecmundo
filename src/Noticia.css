@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+  background-color: #0f84f9;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.aderecos-container {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 130px; /* largura total para caber as duas faixas */
+  height: 120%;
+  transform: rotate(40deg);
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.adereco-lateral-1 {
+  width: 10px;
+  background: #FFC107;
+  margin-right: 10px;
+}
+
+.adereco-lateral-2 {
+  width: 100px;
+  background: #FFC107;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 200px;
+  height: auto;
+  z-index: 2;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.texto-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  z-index: 2;
+  border-bottom: 15px solid #0f84f9;
+}
+
+.titulo {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  font-size: 1.2em;
+}
